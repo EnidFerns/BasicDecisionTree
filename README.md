@@ -112,4 +112,4 @@ else child on right
 
 
 Rules change as the data given to the model increases
-DT gets more complex with mode features
+DT gets more complex with more features
