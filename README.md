@@ -2,7 +2,7 @@
 beginner-friendly machine learning tutorial using real-world data
 
 
-<!-- Steps -->
+# Steps
 1. Import the Data
 2. Clean the Data
 3. Split the Data into Training/Test Sets
@@ -10,3 +10,10 @@ beginner-friendly machine learning tutorial using real-world data
 5. Train the Model
 6. Make Predictions
 7. Evaluate and Improve(EITHER BY CHANGING ALGORITHM OR FINE TUNING HYPER PARAMETERS)
+
+# Libraries for ML
+Numpy - provides multidimensional array
+Pandas - Data Analysis library - dataframes - 2D data structure (similar to Excel spreadsheet) - rows and columns
+MatPlotLib - 2D plotting library to create graphs and plots
+SciKit-Learn - provides algorithms
+
