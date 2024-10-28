@@ -1,5 +1,5 @@
 # Code-With-Enid-Data-Science
-beginner-friendly machine learning demo using real-world data
+basic machine learning demo using some data
 
 ## Online Music Store
 Take the users age and gender 
@@ -90,3 +90,9 @@ There needs to be a training and testing set - using train_test_split from sklea
 
 
 # Model Persistence - Persisting a model
+Train the model once and save it in a file
+When making predictions next time -> load trained model from file and ask predictions (no need to retrain)
+Use joblib object from sklearn.externals
+
+joblib object has methods for saving and loading models
+joblib.dump(model, "storage_file_name.joblib") -> binary file
