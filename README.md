@@ -95,4 +95,21 @@ When making predictions next time -> load trained model from file and ask predic
 Use joblib object from sklearn.externals
 
 joblib object has methods for saving and loading models
-joblib.dump(model, "storage_file_name.joblib") -> binary file
+
+- create a model file
+  joblib.dump(model, "storage_file_name.joblib") -> binary file
+
+- return the trained model
+  model = joblib.load(filename)
+
+
+# Visualization for DT
+Using tree from sklearn
+Output Dot file - binary tree - each node can have max 2 children
+tree.export_graphviz(model, keyword args) / tree.plot_tree(model, args)
+true? child on the left
+else child on right
+
+
+Rules change as the data given to the model increases
+DT gets more complex with mode features
